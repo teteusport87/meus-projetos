@@ -37,5 +37,72 @@ body{
 .main{
     width: 100%;
     background-color: #fff;
-    height: calc(100vh - 80px)
+    height: calc(100vh - 80px);
+    display: flex;
+    background-image: url("../img/programador.png");
+    align-items: center;
+    padding-left: 10%;
+}
+.main h1{
+    color: #fff;
+    font-size: 42px;
+
+}
+
+.main p{
+    font-size: 26px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.call-to-action{
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.9;
+}
+
+.call-to-action:hover{
+    transform: scale(1.1);
+}
+
+.sobre{
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.sobre h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
 }
